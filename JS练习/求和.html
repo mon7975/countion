@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		// function add(n){
+		// 	if(n==1){
+		// 		return 1;
+		// 	} return n*add(n-1);
+		// }
+		// alert(add(5));
+		// var tnd = 0;
+		// for (var i= 0;i<=n;i++) {
+		//  	tnd =n+1;
+		//  } 
+		//    alert(tnd);
+		// function adt(n){
+		// 	var fg = true;
+		// 	for (var i = 2; i <n; i++) {
+		// 		if(n%i == 0){
+		// 			console.log('能被'+i+'整除');
+		// 			fg = false;
+		// 			break;
+		// 		}
+		// 	}   return fg;
+		// }
+		//   alert(adt(7));
+
+		  for(var a = 100; a <= 1000; a++) {
+                a = String(a)
+            var b = Math.pow(a.charAt(a.length - 1), 3);
+            var c = Math.pow(a.charAt(a.length - 2), 3);
+            var d = Math.pow(a.charAt(a.length - 3), 3);
+               if(a == b + c + d) {
+               alert(a)
+    }
+}
+         var add = 0;
+         var cont = 0;
+         for (var i = 1; i <=100; i++) {
+         	   if (i%7==0) {
+         	   	console.log(i);
+         	   	add+=i;
+                cont++;
+         	   } 
+         }
+          console.log(add);
+          console.log(cont);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

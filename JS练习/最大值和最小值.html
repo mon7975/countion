@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>最大最小值</title>
+     <script>
+     	var arr=[3,45,8,41,31,5,7]
+     	alert(getMax(arr));
+     	alert(getMin(arr));
+     	function getMax(arr){
+     		var maxdex = 0;
+     		for (var i = 0; i < arr.length; i++) {
+     			if (arr[maxdex]<arr[i]) {
+     				maxdex = i;
+     			}
+     		}console.log(arr[maxdex]);
+     		return arr[maxdex];
+     	}
+     	function getMin(arr){
+     		var mindex = 0;
+     		for (var i = 0; i < arr.length; i++) {
+     			if (arr[mindex]>arr[i]) {
+     				mindex = i;
+     			}
+     		} console.log(arr[mindex]);
+     		return arr[mindex];
+     	}
+     </script>
+</head>
+<body>
+	
+</body>
+</html>
